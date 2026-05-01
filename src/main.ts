@@ -90,7 +90,12 @@ stopBtn.textContent = 'Stop'
 const infoBtn = document.createElement('button')
 infoBtn.textContent = '?'
 infoBtn.title = 'About'
-hud.append(status, select, startBtn, stopBtn, infoBtn)
+const repoLink = document.createElement('a')
+repoLink.href = 'https://github.com/refarer/parametric-learn'
+repoLink.target = '_blank'
+repoLink.rel = 'noopener noreferrer'
+repoLink.textContent = 'GitHub'
+hud.append(status, select, startBtn, stopBtn, infoBtn, repoLink)
 app.appendChild(hud)
 
 const info = document.createElement('div')

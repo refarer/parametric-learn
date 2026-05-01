@@ -26,7 +26,8 @@ body,
 }
 
 #hud button,
-#hud select {
+#hud select,
+#hud a {
   font: inherit;
   color: #c084fc;
   background: rgba(192, 132, 252, 0.12);
@@ -34,6 +35,11 @@ body,
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+#hud a:hover {
+  background: rgba(192, 132, 252, 0.2);
 }
 
 #hud select option {
