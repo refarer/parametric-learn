@@ -4,6 +4,8 @@ A small neural network learns to fit a parametric surface `(u, v) → (x, y, z)`
 
 Training runs in a Web Worker (TensorFlow.js); rendering is Three.js.
 
+[parametric-learn.webm](https://github.com/user-attachments/assets/ed705225-2449-4d98-8bb0-38778cfc2f77)
+
 ## Run
 
 ```sh
